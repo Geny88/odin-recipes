@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(16, 18, 37);
+    color: antiquewhite;
+    font-family: "Segoe UI", sans-serif;
+}
+
+img {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+ul {
+    text-align: left;
+    list-style-type: disc;
+    list-style-position: outside;
+    padding: 10px;
+    margin: 0 auto;
+    width: 500px;
+}
+
+ul li::marker {
+  color: rgb(83, 83, 95);
+}
+
+ol {
+    text-align: left;
+    list-style-type: decimal;
+    list-style-position: outside;
+    padding: 10px;
+    margin: 0 auto;
+    width: 500px;
+}
+
+p {
+    padding: 10px;
+    margin: 0 auto;
+    width: 600px;
+}
